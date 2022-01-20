@@ -1,0 +1,41 @@
+Arguments: 
+  /opt/homebrew/Cellar/node/17.4.0/bin/node /opt/homebrew/Cellar/yarn/1.22.17_2/libexec/bin/yarn.js add @aactions/core @actions/github
+
+PATH: 
+  /Users/yamato/.pyenv/shims:/Users/yamato/.pub-cache/bin:/Users/yamato/.pyenv//bin:/Users/yamato/development/flutter/bin:/opt/homebrew/opt/dart/libexec:/Users/yamato/.cargo/bin:/opt/homebrew/bin/:/Users/yamato/.cargo//bin/:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/Library/Apple/usr/bin:/usr/local/share/dotnet:~/.dotnet/tools:/Library/Frameworks/Mono.framework/Versions/Current/Commands
+
+Yarn version: 
+  1.22.17
+
+Node version: 
+  17.4.0
+
+Platform: 
+  darwin arm64
+
+Trace: 
+  Error: https://registry.yarnpkg.com/@aactions%2fcore: Not found
+      at Request.params.callback [as _callback] (/opt/homebrew/Cellar/yarn/1.22.17_2/libexec/lib/cli.js:67029:18)
+      at Request.self.callback (/opt/homebrew/Cellar/yarn/1.22.17_2/libexec/lib/cli.js:140883:22)
+      at Request.emit (node:events:520:28)
+      at Request.<anonymous> (/opt/homebrew/Cellar/yarn/1.22.17_2/libexec/lib/cli.js:141855:10)
+      at Request.emit (node:events:520:28)
+      at IncomingMessage.<anonymous> (/opt/homebrew/Cellar/yarn/1.22.17_2/libexec/lib/cli.js:141777:12)
+      at Object.onceWrapper (node:events:639:28)
+      at IncomingMessage.emit (node:events:532:35)
+      at endReadableNT (node:internal/streams/readable:1343:12)
+      at processTicksAndRejections (node:internal/process/task_queues:83:21)
+
+npm manifest: 
+  {
+    "name": "issue-maker",
+    "version": "1.0.0",
+    "main": "index.js",
+    "license": "MIT"
+  }
+
+yarn manifest: 
+  No manifest
+
+Lockfile: 
+  No lockfile
